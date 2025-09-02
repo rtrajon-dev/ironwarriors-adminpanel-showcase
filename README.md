@@ -85,9 +85,7 @@ npm run dev
 
 ## Screenshots
 
-<section id="screenshots" style="margin:24px 0; font-family: Arial, sans-serif;">
-  <h2 style="font-size:20px;">Showcase Screenshots</h2>
-  <div style="display:flex; gap:16px; flex-wrap:wrap;">
+
 
     <figure style="width:320px; margin:0;">
     <img src="assets/screenshots/Dashboard_overview.png" alt="Dashboard overview" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
@@ -123,9 +121,7 @@ npm run dev
     <img src="assets/screenshots/order_details.png" alt="Order Details" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
     <figcaption style="font-size:13px; color:#444; margin-top:8px;">Order details — status updates and payment verification</figcaption>
     </figure>
-  </div>
-  <p style="font-size:13px; color:#666; margin-top:12px;">Tip: Screenshots are preloaded in <code>assets/screenshots/</code>.</p>
-</section>
+
 ```
 
 ---
