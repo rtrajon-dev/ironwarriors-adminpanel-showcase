@@ -33,44 +33,7 @@ The dashboard presents **realistic workflows and polished UI components**, makin
 ---
 
 ## Demo Setup Instructions
-
-> This is a showcase repository. The code is preloaded with **demo data**. For HR/recruiter preview, local setup is optional.
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourorg/ironwarriors-myshop-showcase.git
-cd ironwarriors-myshop-showcase
-```
-
-2. Optional backend setup (Laravel example):
-
-```bash
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-```
-
-3. Optional frontend setup:
-
-```bash
-cd frontend
-npm install
-npm run build
-```
-
-4. Run servers (if testing locally):
-
-```bash
-# Backend
-php artisan serve
-
-# Frontend (separate terminal)
-npm run dev
-```
-
-> Demo accounts and data are already seeded for immediate exploration.
+> This is a showcase repository. The code is preloaded with **demo data**. For HR/recruiter preview, local setup is optional. The source code is uploaded on a private repo.
 
 ---
 
@@ -86,7 +49,10 @@ npm run dev
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](assets/screenshots/Dashboard_overview.png)
+![Dashboard Overview](assets/screenshots/dashboard_overview1.png)
+![Dashboard Overview](assets/screenshots/dashboard_overview2.png)
+![Dashboard Overview](assets/screenshots/dashboard_overview3.png)
+
 
 ### Manage Users
 ![Manage Users](assets/screenshots/manage_users.png)
@@ -98,7 +64,7 @@ npm run dev
 ![Sales Report](assets/screenshots/sales_report.png)
 
 ### Product List
-![Product List](assets/screenshots/product_list.png)
+![Product List](assets/screenshots/products_list.png)
 
 ### Order Details
 ![Order Details](assets/screenshots/order_details.png)
