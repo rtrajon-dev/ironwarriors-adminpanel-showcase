@@ -48,26 +48,49 @@ The dashboard presents **realistic workflows and polished UI components**, makin
 
 ## Screenshots
 
-```html
-<section id="screenshots" style="margin:24px 0; font-family: Arial, sans-serif;">
-  <h2 style="font-size:20px;">Showcase Screenshots</h2>
-  <div style="display:flex; gap:16px; flex-wrap:wrap;">
-    <figure style="width:320px; margin:0;">
-      <img src="assets/screenshots/dashboard_overview.png" alt="Dashboard overview" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Dashboard overview — sales, orders, quick stats</figcaption>
-    </figure>
+```html<section id="screenshots" style="margin:24px 0; font-family: Arial, sans-serif;">
+<h2 style="font-size:20px;">Showcase Screenshots</h2>
+<div style="display:flex; gap:16px; flex-wrap:wrap;">
 
-    <figure style="width:320px; margin:0;">
-      <img src="assets/screenshots/products_list.png" alt="Products list" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Products list — add, edit, bulk actions</figcaption>
-    </figure>
 
-    <figure style="width:320px; margin:0;">
-      <img src="assets/screenshots/order_details.png" alt="Order details" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Order details — update status & payment verification</figcaption>
-    </figure>
-  </div>
-  <p style="font-size:13px; color:#666; margin-top:12px;">Tip: Screenshots are preloaded in <code>assets/screenshots/</code>.</p>
+<figure style="width:320px; margin:0;">
+<img src="assets/screenshots/Dashboard_overview.png" alt="Dashboard overview" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+<figcaption style="font-size:13px; color:#444; margin-top:8px;">Dashboard overview — sales, orders, quick stats</figcaption>
+</figure>
+
+
+<figure style="width:320px; margin:0;">
+<img src="assets/screenshots/manage_users.png" alt="Manage Users" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+<figcaption style="font-size:13px; color:#444; margin-top:8px;">Manage users — view, add, edit, roles</figcaption>
+</figure>
+
+
+<figure style="width:320px; margin:0;">
+<img src="assets/screenshots/product_add.png" alt="Add Product" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+<figcaption style="font-size:13px; color:#444; margin-top:8px;">Add product — product details and inventory</figcaption>
+</figure>
+
+
+<figure style="width:320px; margin:0;">
+<img src="assets/screenshots/sales_report.png" alt="Sales Report" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+<figcaption style="font-size:13px; color:#444; margin-top:8px;">Sales report — analytics and trends</figcaption>
+</figure>
+
+
+<figure style="width:320px; margin:0;">
+<img src="assets/screenshots/product_list.png" alt="Product List" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+<figcaption style="font-size:13px; color:#444; margin-top:8px;">Product list — view and manage inventory</figcaption>
+</figure>
+
+
+<figure style="width:320px; margin:0;">
+<img src="assets/screenshots/order_details.png" alt="Order Details" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+<figcaption style="font-size:13px; color:#444; margin-top:8px;">Order details — status updates and payment verification</figcaption>
+</figure>
+
+
+</div>
+<p style="font-size:13px; color:#666; margin-top:12px;">Tip: Screenshots are preloaded in <code>assets/screenshots/</code>.</p>
 </section>
 ```
 
