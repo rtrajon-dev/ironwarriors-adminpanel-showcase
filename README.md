@@ -34,8 +34,45 @@ The dashboard presents **realistic workflows and polished UI components**, makin
 
 ## Demo Setup Instructions
 
-> This is a showcase repository. The code is preloaded with **demo data**. For HR/recruiter preview, local setup is optional.The project is in Private Repository
+> This is a showcase repository. The code is preloaded with **demo data**. For HR/recruiter preview, local setup is optional.
 
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourorg/ironwarriors-myshop-showcase.git
+cd ironwarriors-myshop-showcase
+```
+
+2. Optional backend setup (Laravel example):
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+```
+
+3. Optional frontend setup:
+
+```bash
+cd frontend
+npm install
+npm run build
+```
+
+4. Run servers (if testing locally):
+
+```bash
+# Backend
+php artisan serve
+
+# Frontend (separate terminal)
+npm run dev
+```
+
+> Demo accounts and data are already seeded for immediate exploration.
+
+---
 
 ## Usage for Showcase
 
@@ -48,49 +85,43 @@ The dashboard presents **realistic workflows and polished UI components**, makin
 
 ## Screenshots
 
-```html<section id="screenshots" style="margin:24px 0; font-family: Arial, sans-serif;">
-<h2 style="font-size:20px;">Showcase Screenshots</h2>
-<div style="display:flex; gap:16px; flex-wrap:wrap;">
+```html
+<section id="screenshots" style="margin:24px 0; font-family: Arial, sans-serif;">
+  <h2 style="font-size:20px;">Showcase Screenshots</h2>
+  <div style="display:flex; gap:16px; flex-wrap:wrap;">
 
+    <figure style="width:320px; margin:0;">
+      <img src="assets/screenshots/Dashboard_overview.png" alt="Dashboard overview" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Dashboard overview — sales, orders, quick stats</figcaption>
+    </figure>
 
-<figure style="width:320px; margin:0;">
-<img src="assets/screenshots/Dashboard_overview.png" alt="Dashboard overview" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-<figcaption style="font-size:13px; color:#444; margin-top:8px;">Dashboard overview — sales, orders, quick stats</figcaption>
-</figure>
+    <figure style="width:320px; margin:0;">
+      <img src="assets/screenshots/manage_users.png" alt="Manage Users" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Manage users — view, add, edit, roles</figcaption>
+    </figure>
 
+    <figure style="width:320px; margin:0;">
+      <img src="assets/screenshots/product_add.png" alt="Add Product" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Add product — product details and inventory</figcaption>
+    </figure>
 
-<figure style="width:320px; margin:0;">
-<img src="assets/screenshots/manage_users.png" alt="Manage Users" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-<figcaption style="font-size:13px; color:#444; margin-top:8px;">Manage users — view, add, edit, roles</figcaption>
-</figure>
+    <figure style="width:320px; margin:0;">
+      <img src="assets/screenshots/sales_report.png" alt="Sales Report" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Sales report — analytics and trends</figcaption>
+    </figure>
 
+    <figure style="width:320px; margin:0;">
+      <img src="assets/screenshots/product_list.png" alt="Product List" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Product list — view and manage inventory</figcaption>
+    </figure>
 
-<figure style="width:320px; margin:0;">
-<img src="assets/screenshots/product_add.png" alt="Add Product" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-<figcaption style="font-size:13px; color:#444; margin-top:8px;">Add product — product details and inventory</figcaption>
-</figure>
+    <figure style="width:320px; margin:0;">
+      <img src="assets/screenshots/order_details.png" alt="Order Details" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
+      <figcaption style="font-size:13px; color:#444; margin-top:8px;">Order details — status updates and payment verification</figcaption>
+    </figure>
 
-
-<figure style="width:320px; margin:0;">
-<img src="assets/screenshots/sales_report.png" alt="Sales Report" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-<figcaption style="font-size:13px; color:#444; margin-top:8px;">Sales report — analytics and trends</figcaption>
-</figure>
-
-
-<figure style="width:320px; margin:0;">
-<img src="assets/screenshots/product_list.png" alt="Product List" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-<figcaption style="font-size:13px; color:#444; margin-top:8px;">Product list — view and manage inventory</figcaption>
-</figure>
-
-
-<figure style="width:320px; margin:0;">
-<img src="assets/screenshots/order_details.png" alt="Order Details" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08);"/>
-<figcaption style="font-size:13px; color:#444; margin-top:8px;">Order details — status updates and payment verification</figcaption>
-</figure>
-
-
-</div>
-<p style="font-size:13px; color:#666; margin-top:12px;">Tip: Screenshots are preloaded in <code>assets/screenshots/</code>.</p>
+  </div>
+  <p style="font-size:13px; color:#666; margin-top:12px;">Tip: Screenshots are preloaded in <code>assets/screenshots/</code>.</p>
 </section>
 ```
 
